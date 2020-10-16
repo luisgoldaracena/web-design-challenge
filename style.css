@@ -14,3 +14,34 @@ a, a:hover, a:focus, a:active {
     margin-left: 40px;
 }
 
+body {
+    background: lightgray;
+}
+
+.row-1 {
+    background: white;
+}
+
+.jumbotron-1 {
+    margin-top: 120px;
+    width: 900px;
+    height: 600px;
+    background: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.jumbotron-2 {
+    margin-top: 120px;
+    width: 600px;
+    height: 700px;
+    background: white;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.display-4 {
+    color: rgb(97, 206, 179);
+}
+
+.display-5 {
+    color: rgb(97, 206, 179);
+}
