@@ -1,0 +1,16 @@
+a, a:hover, a:focus, a:active {
+    text-decoration: none;
+    color: inherit;
+}
+
+.Latitude {
+    text-decoration: none;
+    background: rgb(97, 206, 179);
+    padding: 15px;
+    font-size: 30px;
+    font-family: "Times New Roman", Times, serif;
+    color: whitesmoke;
+    margin-right: 1450px;   
+    margin-left: 40px;
+}
+
