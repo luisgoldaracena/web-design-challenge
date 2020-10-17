@@ -24,16 +24,13 @@ body {
 
 .jumbotron-1 {
     margin-top: 120px;
-    width: 900px;
-    height: 600px;
     background: white;
     font-family: "Times New Roman", Times, serif;
 }
 
 .jumbotron-2 {
     margin-top: 120px;
-    width: 600px;
-    height: 700px;
+    width: fit-content;
     background: white;
     font-family: "Times New Roman", Times, serif;
 }
