@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Web Design Homework - Web Visualization Dashboard</title>
+  <title>Temperature Page</title>
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   <link rel="stylesheet" href="style.css">
 </head>
@@ -42,53 +42,57 @@
         </li>
       </ul>
     </nav>
+   </div>
 
-</div>
-
-<div class="row row-2">
-  <div class="col-md-6">
-    <div class="container container-1">
-      <div class="jumbotron jumbotron-1">
-        <strong><h1 class="display-4">Summary: Latitude vs X</h1></strong>
-        <hr class="my-3">
-        <figure>
-          <img src="WebVisualizations/assets/1-lat-temp.png" alt="..." style="width:300px;height:300px;float:left">
-      </figure> 
-        <p><br><br><br> The main objective behind this project was to analyze how weather changes as you get closer to the equator. We used a Python script to visualize the weather of 500+ cities across the world of varying distance from the equator. To accomplish this, we will be utilizing a simple Python library, the OpenWeatherMap API, and a little common sense to create a representative model of weather across world cities.</p>
-        <p><br></p>
-        <p>After assembling the dataset we used matplotlib to graph the most relevant correlations to get a better understanding in how the weather changes in relation with its latitude.</p>
+   <div class="row row-2">
+    <div class="col-md-6">
+      <div class="container container-1">
+        <div class="jumbotron jumbotron-1">
+          <strong><h1 class="display-10">Wind Speed</h1></strong>
+          <hr class="my-3">  
+        <div class="row"> 
+            <figure>
+                <img src="WebVisualizations/assets/4-lat-ws.png" alt="..." style="width:100%;height:100%; align:middle">
+            </figure>  
+        </div>
+        <p>Nothing</p>
+        </div>
+      </div>
+    </div>
+  
+    <div class="col-md-6">
+      <div class="container container-2">
+        <div class="jumbotron jumbotron-2">
+          <strong><h2 class="display-5">Visualization</h2></strong>
+          <hr class="my-3">
+          <div class="row">
+            <div class="col-md-6">           
+                <a href="temperature.html"><img src="WebVisualizations/assets/1-lat-temp.png" alt="..." style="width:200px;height:200px;float:left"></a>       
+            </div>
+  
+            <div>    
+                <a href="humidity.html"><img src="WebVisualizations/assets/2-lat-hum.png" alt="..." style="width:200px;height:200px;float:right"></a>  
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6">
+                <a href="cloud.html"><img src="WebVisualizations/assets/3-lat-cld.png" alt="..." style="width:200px;height:200px;float:left"></a>
+            </div>
+  
+            <div>
+                <a href="windspeed.html"><img src="WebVisualizations/assets/4-lat-ws.png" alt="..." style="width:200px;height:200px;float:right"></a>
+            </div>
+          </div>
+          
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="col-md-6">
-    <div class="container container-2">
-      <div class="jumbotron jumbotron-2">
-        <strong><h2 class="display-5">Visualization</h2></strong>
-        <hr class="my-3">
-        <div class="row">
-          <div class="col-md-6">           
-              <a href="temperature.html"><img src="WebVisualizations/assets/1-lat-temp.png" alt="..." style="width:200px;height:200px;float:left"></a>       
-          </div>
+   
 
-          <div>    
-              <a href="humidity.html"><img src="WebVisualizations/assets/2-lat-hum.png" alt="..." style="width:200px;height:200px;float:right"></a>  
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-md-6">
-              <a href="cloud.html"><img src="WebVisualizations/assets/3-lat-cld.png" alt="..." style="width:200px;height:200px;float:left"></a>
-          </div>
 
-          <div>
-              <a href="windspeed.html"><img src="WebVisualizations/assets/4-lat-ws.png" alt="..." style="width:200px;height:200px;float:right"></a>
-          </div>
-        </div>
-        
-      </div>
-    </div>
-  </div>
-</div>
+
 
 <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
